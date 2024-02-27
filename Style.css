@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 900; */
+  /* font-style: italic; */
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;     
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 800px;
+    color: #FEA116 !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #FEA116;
+}
+
+#navbarSupportedContent button{
+    background-color: #FEA116;
+    width: 5 rem;
+    padding: 5px 20px;
+}
+#btn2{
+    background-color: #FEA116;
+    width: 5 rem;
+    padding: 23px 49px;
+    border-radius: 9px;
+}
+
+#home {
+    background-image:   linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 100px;
+}
+#home p{
+    color: #fff;
+    padding-top: 10px;
+    width: 90%;
+}
+#home h1{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #fff;
+    /* font-style: italic; */
+    font-family:cursive;
+    
+}
+
+#product .fa-solid{
+    color: orange;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+#product .card-subtitle{
+    font-size: larger;
+    font-weight: 630;
+    padding-bottom: 10px;
+}
+#product .card:hover{
+    background-color: #FEA116;
+    color: white;
+    
+    
+}
+#product .card:hover i{
+  color: #fff;
+}
+
+#menu .menu-h{
+    font-style:italic;
+    color: #FEA116;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0;
+}
+#menu .menu-h2{
+    color: black;
+}
+#menu .menu-h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    /* padding: 0 20px; */
+    
+}
+#menu .one{
+    font-size: 39px;
+    color: #FEA116;
+    padding-right: 20px;
+}
+#menu p{
+    font-size: 17px;
+    font-weight: bolder;
+}
+/* #menu .one{
+    border-bottom: 2px solid transparent;
+}
+#menu:hover .one{
+    border-bottom: 2px solid #FEA116;
+} */
+
+#menu .card1{
+    padding-left: 15px; 
+    font-weight: 300;
+    font-style: italic;
+    font-size: medium;
+    color: grey;
+    padding-left: 15px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu .img-fluid{
+    height: 100%;
+}
+#menu .dollar{
+    color: #FEA116;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   float: right;
+    font-weight: bold;
+
+
+}
+#table-book .container-fluid{
+    background-color: black;
+}
+
+#btn3{
+    background-color: #FEA116;
+    width: 5 rem;
+    padding: 23px 49px;
+    border-radius: 9px;
+}
+
+
+#table-book .menu-h{
+    font-style: italic;
+    color: #FEA116;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#testimonial .fa-solid{
+    color: orange;
+    font-size: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+#testimonial .text-center{
+    font-style:italic;
+    color: #FEA116;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#testimonial .text1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:600;
+    padding-bottom: 30px;
+}
+#testimonial .card:hover{
+    background-color: #FEA116;
+    color: #fff;
+}
+#testimonial .card:hover i{
+    color: #fff;
+}
+#footer .style1{
+    font-style:italic;
+    color: #FEA116;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#footer  i  {
+    color: #fff;
+}

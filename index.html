@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  
+  <title> resApp</title>
+</head>
+<body>
+    <!-- navbar starts -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Restoran</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-expanded="false" >
+          <span style="color: #fff;" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+            
+            <button class="btn p-2 my-lg-0 my-2" type="submit">Book a table</button>
+         
+        </div>
+      </div>
+    </nav>
+
+     <!-- hero section starts -->
+    <section id="home">
+      <div class="container-fluid">
+        <div class="row">
+           <div class=" col-lg-6 col-md-6 col-12"> 
+            <h1 > Enjoy Our
+              Delicious Meal</h1>
+              <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+              <button  id= "btn2" type="submit">Book a table</button>
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 p-4 my-2"> 
+            <img  src="/assets/hero.png" style="width: 100%;" class="img-fluid"/>
+           </div>
+        </div>
+      </div>  
+     </div>
+    </section>
+
+    <!-- about -->
+    <section id="product">
+      <div class="container m-5">
+         <div class="row">
+            <div class="col-lg-3 col-md-3 col-12">
+                 <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-user"></i>
+                    <h6 class="card-subtitle mb-2">Master Chefs</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-3 col-12">
+              <div class="card">
+               <div class="card-body">
+                 <i class="fa-solid fa-utensils" ></i>
+                 <h6 class="card-subtitle mb-2">Quality Food</h6>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+             </div>  
+         </div>
+         <div class="col-lg-3 col-md-3 col-12">
+          <div class="card">
+           <div class="card-body">
+            <i class="fa-solid fa-cart-plus"></i>
+             <h6 class="card-subtitle mb-2">Online Order</h6>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             
+           </div>
+         </div>  
+     </div>
+     <div class="col-lg-3 col-md-3 col-12">
+      <div class="card">
+       <div class="card-body">
+        <i class="fa-solid fa-headset"></i>
+         <h6 class="card-subtitle mb-2">24/7 Service</h6>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         
+       </div>
+     </div>  
+ </div>
+
+         </div>
+      </div>
+
+    </section>
+
+
+    <!-- food-menu -->
+    <section id="menu"> 
+      <div class="container">
+        <h4 class="menu-h text-center "> food Menu </h4>
+        <h1 class="menu-h2 text-center"> Most popular Items </h1>
+        <!-- <div class="menu-h3">
+          
+          <ul >
+            <div>
+            <li > home
+              
+            </li>
+          </div>
+          <div>
+            <li > abou
+              
+            </li>
+          </div>
+          <div>
+            <li > product
+              
+            </li>
+          </div>
+            </ul>
+        </div> -->
+        
+    
+        <div class="menu-h3">
+          <div class="px-3" style="display: flex; flex-wrap: wrap;">
+            <div class="one">
+              <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <div>
+            <h6 >popular</h6>
+            <p> Breakfast</p>
+          </div>
+          </div> 
+          <div class="px-3" style="display: flex; flex-wrap: wrap;">
+            <div class="one">
+              <i class="fa-solid fa-burger"></i>
+          </div>
+          <div>
+            <h6 >popular</h6>
+            <p> Breakfast</p>
+          </div>
+          </div> 
+          <div class="px-3" style="display: flex; flex-wrap: wrap;">
+            <div class="one">
+            <i class="fa-solid fa-utensils" ></i>
+          </div>
+          <div>
+            <h6 >popular</h6>
+            <p> Breakfast</p>
+          </div>
+          </div> 
+        </div>
+        <div class="row" style="padding-top: 25px; padding-bottom: 50px;">
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-3.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-5.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-6.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-7.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="./assets/menu-8.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div >
+                    <h5 style="padding-left: 15px; padding-top: 10px;">Chicken Burger   <span class="dollar"> &#36; 115</span></h5>  
+                    <p class="card1" >psum ipsum clita erat amet dolor justo diam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- book a table -->
+    <section id="table-book">
+      <div class="container-fluid p-5 my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="https://img.freepik.com/free-photo/low-angle-view-young-happy-couple-having-dinner-talking-each-other-dining-room_637285-3598.jpg" style="width:100%;"/>
+          </div>
+          <div class="col-lg-6">
+            <p class="menu-h"> Reservation </p>
+            <h1 style="color: #fff; padding-bottom: 20px;"> Book a table online</h1>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input type="email" placeholder="Your name" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <input type="password"  placeholder= "Your Email" class="form-control" id="inputPassword4">
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" placeholder="Date & Time " class="form-control" id="inputEmail4">
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" placeholder="No of People" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control"> Special Request </textarea>
+                <!-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> -->
+              </div>
+              <div class="col-12">
+                <button type="submit" class=" form-control" id="btn3">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- testimonial -->
+     <section id="testimonial"> 
+      <div>
+        <p class="text-center"> Testimonial</p>
+        <h3 class="text1"> Our Clients says..!!!</h3>
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-4 py-3" > 
+                <div class="card" style="width: 20rem;">
+                  <div class="card-body">
+                    <div class="fa-solid">
+                      <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div>
+                    <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; ">
+                    <img  style=" border-radius: 50%; width: 60px;" src="/assets/testimonial-2.jpg"/>
+                    <div style="padding-left: 20px;">
+                    <h6 style="font-weight: 600; font-size:larger;">Card link</h6>
+                    <p style="font-size: small;"> consultant</p>
+                    </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 py-3"> 
+                <div class="card" style="width: 20rem;">
+                  <div class="card-body">
+                    <div class="fa-solid">
+                      <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div>
+                    <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; ">
+                    <img  style=" border-radius: 50%; width: 60px;" src="/assets/testimonial-3.jpg"/>
+                    <div style="padding-left: 20px;">
+                    <h6 style="font-weight: 600; font-size:larger;">Card link</h6>
+                    <p style="font-size: small;"> consultant</p>
+                    </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 py-3"> 
+                <div class="card" style="width: 20rem;">
+                  <div class="card-body">
+                    <div class="fa-solid">
+                      <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div>
+                    <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; ">
+                    <img  style=" border-radius: 50%; width: 60px;" src="/assets/testimonial-4.jpg"/>
+                    <div style="padding-left: 20px;">
+                    <h6 style="font-weight: 600; font-size:larger;">Card link</h6>
+                    <p style="font-size: small;"> consultant</p>
+                    </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+      </div>
+      
+     </section>
+
+
+
+     <!-- footer -->
+
+     <section id="footer">
+      <div class="container-fluid" style="background-color:black; padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">  
+          <div class="row"> 
+            <div class="col-lg-4">
+                <p class="style1">  Company</p>
+                <p style="font-weight: 600; color: #fff;"> > About us </p>
+                <p style="font-weight: 600; color: #fff"> > Contact us </p>
+                <p style="font-weight: 600; color: #fff"> > Reservation </p>
+                <p style="font-weight: 600; color: #fff"> > Privacy Policy </p>
+                <p style="font-weight: 600; color: #fff"> > Condition </p>
+            </div>
+            <div class="col-lg-4">
+              <p class="style1">  Contact </p>
+              <p style="font-weight: 600;  color: #fff"> <i class="fa-solid fa-location-dot"></i>  About us </p>
+              <p style="font-weight: 600; color: #fff"> <i class="fa-solid fa-phone"></i> Contact us </p>
+              <p style="font-weight: 600; color: #fff"> <i class="fa-regular fa-envelope"></i> Reservation </p>
+              <p > <i style="border: 1px solid white; border-radius: 50%; padding: 5px 5px;"class="fa-brands fa-twitter"></i>
+                <i style="border: 1px solid white; border-radius: 50%; padding: 6px 6px;"class="fa-brands fa-facebook-f"></i>
+                <i style="border: 1px solid white; border-radius: 50%; padding: 5px 5px;"class="fa-brands fa-youtube"></i>
+                <i style="border: 1px solid white; border-radius: 50%; padding: 6px 6px;" class="fa-brands fa-linkedin-in"></i> 
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <p class="style1">  Opening </p>
+           <p style="font-weight: 600; color: #fff"> Monday - Saturday </p>
+           <p style="font-weight: 600; color: #fff"> 09AM - 09PM </p>
+           <p style="font-weight: 600;color: #fff"> Sunday </p>
+           <p style="font-weight: 600;color: #fff"> 10AM - 08PM </p>
+            </div>
+            
+  
+          </div>
+        </div>
+        
+
+      </div>
+
+     </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
